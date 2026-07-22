@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Webdock API",
+        "description": "Please enter your Webdock API Token. You can generate a new token under Account Area > API & Integrations in your Webdock dashboard.",
+        "data": {
+          "api_token": "API Token"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to Webdock API.",
+      "invalid_auth": "Invalid API token.",
+      "unknown": "Unexpected error occurred."
+    },
+    "abort": {
+      "already_configured": "This Webdock account is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Webdock Options",
+        "data": {
+          "scan_interval": "Update Interval (seconds)"
+        }
+      }
+    }
+  }
+}
